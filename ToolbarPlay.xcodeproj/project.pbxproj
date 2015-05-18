@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9966B841B0A60C6009B3D3D /* AccessoryBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9966B821B0A60C6009B3D3D /* AccessoryBarViewController.m */; };
+		A9966B851B0A60C6009B3D3D /* AccessoryBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9966B831B0A60C6009B3D3D /* AccessoryBarViewController.xib */; };
 		A9BABDF41B098E340054DE24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BABDF31B098E340054DE24 /* AppDelegate.m */; };
 		A9BABDF61B098E340054DE24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BABDF51B098E340054DE24 /* main.m */; };
 		A9BABDF81B098E340054DE24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9BABDF71B098E340054DE24 /* Images.xcassets */; };
@@ -25,6 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A9966B811B0A60C6009B3D3D /* AccessoryBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessoryBarViewController.h; sourceTree = "<group>"; };
+		A9966B821B0A60C6009B3D3D /* AccessoryBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessoryBarViewController.m; sourceTree = "<group>"; };
+		A9966B831B0A60C6009B3D3D /* AccessoryBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccessoryBarViewController.xib; sourceTree = "<group>"; };
 		A9BABDED1B098E340054DE24 /* ToolbarPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToolbarPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9BABDF11B098E340054DE24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9BABDF21B098E340054DE24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +86,9 @@
 				A9BABDF71B098E340054DE24 /* Images.xcassets */,
 				A9BABDF91B098E340054DE24 /* MainMenu.xib */,
 				A9BABDF01B098E340054DE24 /* Supporting Files */,
+				A9966B811B0A60C6009B3D3D /* AccessoryBarViewController.h */,
+				A9966B821B0A60C6009B3D3D /* AccessoryBarViewController.m */,
+				A9966B831B0A60C6009B3D3D /* AccessoryBarViewController.xib */,
 			);
 			path = ToolbarPlay;
 			sourceTree = "<group>";
@@ -191,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9966B851B0A60C6009B3D3D /* AccessoryBarViewController.xib in Resources */,
 				A9BABDF81B098E340054DE24 /* Images.xcassets in Resources */,
 				A9BABDFB1B098E340054DE24 /* MainMenu.xib in Resources */,
 			);
@@ -212,6 +221,7 @@
 			files = (
 				A9BABDF61B098E340054DE24 /* main.m in Sources */,
 				A9BABDF41B098E340054DE24 /* AppDelegate.m in Sources */,
+				A9966B841B0A60C6009B3D3D /* AccessoryBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +411,7 @@
 				A9BABE0C1B098E340054DE24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9BABE0D1B098E340054DE24 /* Build configuration list for PBXNativeTarget "ToolbarPlayTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +420,7 @@
 				A9BABE0F1B098E340054DE24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "AccessoryBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,8 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	// Insert code here to initialize your application
+	AccessoryBarViewController * viewController = [[AccessoryBarViewController alloc] initWithNibName:@"AccessoryBarViewController" bundle:nil];
+	[self.window addTitlebarAccessoryViewController:viewController];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
