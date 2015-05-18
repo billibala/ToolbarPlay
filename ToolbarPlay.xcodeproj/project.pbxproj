@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9BABDF41B098E340054DE24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BABDF31B098E340054DE24 /* AppDelegate.m */; };
+		A9BABDF61B098E340054DE24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BABDF51B098E340054DE24 /* main.m */; };
+		A9BABDF81B098E340054DE24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9BABDF71B098E340054DE24 /* Images.xcassets */; };
+		A9BABDFB1B098E340054DE24 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9BABDF91B098E340054DE24 /* MainMenu.xib */; };
+		A9BABE071B098E340054DE24 /* ToolbarPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BABE061B098E340054DE24 /* ToolbarPlayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9BABE011B098E340054DE24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9BABDE51B098E340054DE24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9BABDEC1B098E340054DE24;
+			remoteInfo = ToolbarPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9BABDED1B098E340054DE24 /* ToolbarPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToolbarPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BABDF11B098E340054DE24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9BABDF21B098E340054DE24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9BABDF31B098E340054DE24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9BABDF51B098E340054DE24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9BABDF71B098E340054DE24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9BABDFA1B098E340054DE24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A9BABE001B098E340054DE24 /* ToolbarPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolbarPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BABE051B098E340054DE24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9BABE061B098E340054DE24 /* ToolbarPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolbarPlayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9BABDEA1B098E340054DE24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BABDFD1B098E340054DE24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9BABDE41B098E340054DE24 = {
+			isa = PBXGroup;
+			children = (
+				A9BABDEF1B098E340054DE24 /* ToolbarPlay */,
+				A9BABE031B098E340054DE24 /* ToolbarPlayTests */,
+				A9BABDEE1B098E340054DE24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9BABDEE1B098E340054DE24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9BABDED1B098E340054DE24 /* ToolbarPlay.app */,
+				A9BABE001B098E340054DE24 /* ToolbarPlayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9BABDEF1B098E340054DE24 /* ToolbarPlay */ = {
+			isa = PBXGroup;
+			children = (
+				A9BABDF21B098E340054DE24 /* AppDelegate.h */,
+				A9BABDF31B098E340054DE24 /* AppDelegate.m */,
+				A9BABDF71B098E340054DE24 /* Images.xcassets */,
+				A9BABDF91B098E340054DE24 /* MainMenu.xib */,
+				A9BABDF01B098E340054DE24 /* Supporting Files */,
+			);
+			path = ToolbarPlay;
+			sourceTree = "<group>";
+		};
+		A9BABDF01B098E340054DE24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9BABDF11B098E340054DE24 /* Info.plist */,
+				A9BABDF51B098E340054DE24 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9BABE031B098E340054DE24 /* ToolbarPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9BABE061B098E340054DE24 /* ToolbarPlayTests.m */,
+				A9BABE041B098E340054DE24 /* Supporting Files */,
+			);
+			path = ToolbarPlayTests;
+			sourceTree = "<group>";
+		};
+		A9BABE041B098E340054DE24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9BABE051B098E340054DE24 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9BABDEC1B098E340054DE24 /* ToolbarPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9BABE0A1B098E340054DE24 /* Build configuration list for PBXNativeTarget "ToolbarPlay" */;
+			buildPhases = (
+				A9BABDE91B098E340054DE24 /* Sources */,
+				A9BABDEA1B098E340054DE24 /* Frameworks */,
+				A9BABDEB1B098E340054DE24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToolbarPlay;
+			productName = ToolbarPlay;
+			productReference = A9BABDED1B098E340054DE24 /* ToolbarPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9BABDFF1B098E340054DE24 /* ToolbarPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9BABE0D1B098E340054DE24 /* Build configuration list for PBXNativeTarget "ToolbarPlayTests" */;
+			buildPhases = (
+				A9BABDFC1B098E340054DE24 /* Sources */,
+				A9BABDFD1B098E340054DE24 /* Frameworks */,
+				A9BABDFE1B098E340054DE24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9BABE021B098E340054DE24 /* PBXTargetDependency */,
+			);
+			name = ToolbarPlayTests;
+			productName = ToolbarPlayTests;
+			productReference = A9BABE001B098E340054DE24 /* ToolbarPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9BABDE51B098E340054DE24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Bill So";
+				TargetAttributes = {
+					A9BABDEC1B098E340054DE24 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					A9BABDFF1B098E340054DE24 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = A9BABDEC1B098E340054DE24;
+					};
+				};
+			};
+			buildConfigurationList = A9BABDE81B098E340054DE24 /* Build configuration list for PBXProject "ToolbarPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9BABDE41B098E340054DE24;
+			productRefGroup = A9BABDEE1B098E340054DE24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9BABDEC1B098E340054DE24 /* ToolbarPlay */,
+				A9BABDFF1B098E340054DE24 /* ToolbarPlayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9BABDEB1B098E340054DE24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BABDF81B098E340054DE24 /* Images.xcassets in Resources */,
+				A9BABDFB1B098E340054DE24 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BABDFE1B098E340054DE24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9BABDE91B098E340054DE24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BABDF61B098E340054DE24 /* main.m in Sources */,
+				A9BABDF41B098E340054DE24 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BABDFC1B098E340054DE24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BABE071B098E340054DE24 /* ToolbarPlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9BABE021B098E340054DE24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9BABDEC1B098E340054DE24 /* ToolbarPlay */;
+			targetProxy = A9BABE011B098E340054DE24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9BABDF91B098E340054DE24 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9BABDFA1B098E340054DE24 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9BABE081B098E340054DE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A9BABE091B098E340054DE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A9BABE0B1B098E340054DE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ToolbarPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9BABE0C1B098E340054DE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ToolbarPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9BABE0E1B098E340054DE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ToolbarPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToolbarPlay.app/Contents/MacOS/ToolbarPlay";
+			};
+			name = Debug;
+		};
+		A9BABE0F1B098E340054DE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ToolbarPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToolbarPlay.app/Contents/MacOS/ToolbarPlay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9BABDE81B098E340054DE24 /* Build configuration list for PBXProject "ToolbarPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BABE081B098E340054DE24 /* Debug */,
+				A9BABE091B098E340054DE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9BABE0A1B098E340054DE24 /* Build configuration list for PBXNativeTarget "ToolbarPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BABE0B1B098E340054DE24 /* Debug */,
+				A9BABE0C1B098E340054DE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9BABE0D1B098E340054DE24 /* Build configuration list for PBXNativeTarget "ToolbarPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BABE0E1B098E340054DE24 /* Debug */,
+				A9BABE0F1B098E340054DE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9BABDE51B098E340054DE24 /* Project object */;
+}
